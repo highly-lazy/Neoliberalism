@@ -1,0 +1,78 @@
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "Crimson Regular";
+  src: url(/assets/fonts/CrimsonText-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Crimson SemiBold";
+  src: url(/assets/fonts/CrimsonText-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Crimson Bold";
+  src: url(/assets/fonts/CrimsonText-Bold.ttf);
+}
+
+a {
+  text-decoration: none;
+}
+
+// body {
+//    background-color: rgb(80, 28, 147);
+// }
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.content {
+  background-color: #f0f0f0;
+  border: 1px solid #000000;
+}
+
+.dark-mode h1,
+h3 .dark-mode p {
+  color: #ffffff;
+}
+
+.dark-mode body {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.dark-mode header {
+  background-color: rgb(56, 8, 119);
+  color: #ffffff;
+}
+
+.dark-mode footer {
+  background-color: rgb(56, 8, 119);
+  color: #ffffff;
+}
+
+
+  h1{
+    font-family: "Crimson Bold";
+  }
+  h2{
+    font-family: "Crimson SemiBold";
+  }
+
+  h3{
+    font: "Crimson SemiBold";
+  }
+
+  p{
+    font-family: "Crimson Regular";
+  }
+

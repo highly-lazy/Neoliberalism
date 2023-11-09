@@ -1,0 +1,742 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "Crimson Regular";
+  src: url(/assets/fonts/CrimsonText-Regular.ttf);
+}
+@font-face {
+  font-family: "Crimson SemiBold";
+  src: url(/assets/fonts/CrimsonText-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Crimson Bold";
+  src: url(/assets/fonts/CrimsonText-Bold.ttf);
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.content {
+  background-color: #f0f0f0;
+  border: 1px solid #000000;
+}
+
+.dark-mode h1,
+h3 .dark-mode p {
+  color: #ffffff;
+}
+
+.dark-mode body {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.dark-mode header {
+  background-color: rgb(56, 8, 119);
+  color: #ffffff;
+}
+
+.dark-mode footer {
+  background-color: rgb(56, 8, 119);
+  color: #ffffff;
+}
+
+h1 {
+  font-family: "Crimson Bold";
+}
+
+h2 {
+  font-family: "Crimson SemiBold";
+}
+
+h3 {
+  font: "Crimson SemiBold";
+}
+
+p {
+  font-family: "Crimson Regular";
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  z-index: 9999;
+  background-color: rgb(56, 8, 119);
+  padding: 20px;
+}
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  cursor: pointer;
+  width: 100px;
+  border-radius: 30px;
+  margin-left: -50px;
+}
+header .wrapper {
+  display: flex;
+  align-items: center;
+}
+header .wrapper ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  list-style-type: none;
+}
+header .wrapper a {
+  display: flex;
+  text-decoration: none;
+  font-family: "Crimson Regular";
+  color: #fff;
+  font-size: 18px;
+}
+header .wrapper #darkMode {
+  display: flex;
+  padding: 6px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 12px;
+  border: none;
+  font-family: "Crimson Regular";
+  color: black;
+  font-size: 18px;
+}
+header .wrapper #darkMode:hover {
+  background-color: rgb(77, 7, 143);
+  color: rgb(247, 240, 255);
+}
+@media (max-width: 768px) {
+  header header {
+    padding: 10px; /* Reduce padding */
+  }
+  header img {
+    width: 80px; /* Decrease image size */
+    margin-left: 30px; /* Adjust margin */
+  }
+  header .wrapper ul {
+    gap: 20px; /* Increase gap between list items */
+  }
+  header .wrapper a {
+    font-size: 16px; /* Reduce font size */
+  }
+  header .wrapper #darkMode {
+    cursor: pointer;
+    padding: 4px 12px; /* Adjust padding */
+    font-size: 16px; /* Reduce font size */
+  }
+}
+@media (max-width: 576px) {
+  header header {
+    padding: 10px; /* Further reduce padding */
+  }
+  header img {
+    width: 60px; /* Decrease image size even more */
+    margin-left: 20px; /* Adjust margin */
+  }
+  header .wrapper ul {
+    gap: 10px; /* Reduce gap between list items */
+  }
+  header .wrapper a {
+    font-size: 14px; /* Further reduce font size */
+  }
+  header .wrapper #darkMode {
+    padding: 4px 10px; /* Adjust padding */
+    font-size: 14px; /* Further reduce font size */
+  }
+}
+@media (max-width: 370px) {
+  header header {
+    padding: 5px; /* Further reduce padding */
+  }
+  header img {
+    width: 60px; /* Decrease image size even more */
+    margin-left: 0px; /* Adjust margin */
+    margin-right: 15px;
+  }
+  header .wrapper ul {
+    gap: 15px; /* Reduce gap between list items */
+  }
+  header .wrapper a {
+    font-size: 14px; /* Further reduce font size */
+  }
+  header .wrapper #darkMode {
+    padding: 2px 6px; /* Adjust padding */
+    font-size: 14px; /* Further reduce font size */
+  }
+}
+
+#about {
+  margin-top: 100px;
+}
+#about .wrapper {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+#about .wrapper .buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+#about .wrapper .buttons h3 {
+  font-family: "Crimson Bold";
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+#about .wrapper .buttons button {
+  width: 400px;
+  height: 50px;
+  border-radius: 15px;
+  font-family: "Crimson Regular";
+  font-size: 18px;
+  border-style: solid;
+  border-color: rgb(52, 8, 119);
+}
+#about .wrapper .buttons button:hover {
+  background-color: rgb(56, 8, 119);
+}
+#about .wrapper .buttons button:hover a {
+  color: aliceblue;
+}
+#about .wrapper .buttons button:active {
+  background-color: darkorchid;
+}
+#about .wrapper .buttons button a {
+  color: black;
+}
+#about .wrapper .text {
+  padding: 20px;
+}
+#about .wrapper .text p {
+  font-family: "Crimson SemiBold";
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#information {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#information .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#information .wrapper h1 {
+  font-family: "Crimson Bold";
+  border-radius: 5px;
+}
+#information .wrapper .texts {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  gap: 20px;
+}
+#information .wrapper .texts .nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#information .wrapper .texts .first {
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  border-color: blueviolet;
+}
+#information .wrapper .texts .first p {
+  font-size: 20px;
+}
+#information .wrapper .texts .first:hover {
+  background-color: rgb(56, 8, 119);
+  transform: scale(1.05);
+  color: #fff;
+}
+#information .wrapper .texts .second {
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  border-color: blueviolet;
+}
+#information .wrapper .texts .second p {
+  font-size: 20px;
+}
+#information .wrapper .texts .second:hover {
+  background-color: rgb(56, 8, 119);
+  transform: scale(1.05);
+  color: #fff;
+}
+#information .wrapper .texts .third {
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  border-color: blueviolet;
+}
+#information .wrapper .texts .third p {
+  font-size: 20px;
+}
+#information .wrapper .texts .third:hover {
+  background-color: rgb(56, 8, 119);
+  transform: scale(1.05);
+  color: #fff;
+}
+#information .wrapper .texts .fourth {
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  border-color: blueviolet;
+}
+#information .wrapper .texts .fourth p {
+  font-size: 20px;
+}
+#information .wrapper .texts .fourth:hover {
+  background-color: rgb(56, 8, 119);
+  transform: scale(1.05);
+  color: #fff;
+}
+#information .wrapper .texts .fifth {
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  border-color: blueviolet;
+}
+#information .wrapper .texts .fifth p {
+  font-size: 20px;
+}
+#information .wrapper .texts .fifth:hover {
+  background-color: rgb(56, 8, 119);
+  transform: scale(1.05);
+  color: #fff;
+}
+#information .wrapper .texts .sixth {
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  border-color: blueviolet;
+}
+#information .wrapper .texts .sixth p {
+  font-size: 20px;
+}
+#information .wrapper .texts .sixth:hover {
+  background-color: rgb(56, 8, 119);
+  transform: scale(1.05);
+  color: #fff;
+}
+#information .wrapper .texts .seventh {
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  border-color: blueviolet;
+}
+#information .wrapper .texts .seventh p {
+  font-size: 20px;
+}
+#information .wrapper .texts .seventh:hover {
+  background-color: rgb(56, 8, 119);
+  transform: scale(1.05);
+  color: #fff;
+}
+#information .wrapper .texts .eighth {
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  border-color: blueviolet;
+}
+#information .wrapper .texts .eighth p {
+  font-size: 20px;
+}
+#information .wrapper .texts .eighth:hover {
+  background-color: rgb(56, 8, 119);
+  transform: scale(1.05);
+  color: #fff;
+}
+#information .wrapper .cards {
+  display: flex;
+}
+#information .wrapper .cards .card {
+  border: 2px solid #3c0952;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 300px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  background-color: #fff;
+}
+#information .wrapper .cards .card:hover {
+  transform: scale(1.05);
+}
+#information .wrapper .cards .card img {
+  max-width: 100%;
+  height: auto;
+}
+#information .wrapper .cards .card .card-content {
+  padding: 20px;
+}
+#information .wrapper .cards .card .card-content h2 {
+  font-family: "Crimson SemiBold";
+  font-size: 1.5rem;
+  margin: 0;
+  color: black;
+}
+#information .wrapper .cards .card .card-content p {
+  font-family: "Crimson Regular";
+  color: black;
+  margin: 10px 0;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  background-color: rgb(56, 8, 119);
+}
+footer .wrapper p {
+  color: aliceblue;
+}/*# sourceMappingURL=style.css.map */

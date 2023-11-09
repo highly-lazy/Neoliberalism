@@ -1,0 +1,122 @@
+header {
+  z-index: 9999;
+  background-color: rgb(56, 8, 119);
+  padding: 20px;
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  img {
+    cursor: pointer;
+    width: 100px;
+    border-radius: 30px;
+    margin-left: -50px;
+  }
+  .wrapper {
+    display: flex;
+    align-items: center;
+
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      list-style-type: none;
+    }
+
+    a {
+      display: flex;
+      text-decoration: none;
+      font-family: "Crimson Regular";
+      color: #fff;
+      font-size: 18px;
+    }
+
+    #darkMode {
+      display: flex;
+      padding: 6px 16px;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      border-radius: 12px;
+      border: none;
+      font-family: "Crimson Regular";
+      color: black;
+      font-size: 18px;
+      &:hover {
+        background-color: rgb(77, 7, 143);
+        color: rgb(247, 240, 255);
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    header {
+      padding: 10px; /* Reduce padding */
+    }
+    img {
+      width: 80px; /* Decrease image size */
+      margin-left: 30px; /* Adjust margin */
+    }
+    .wrapper {
+      ul {
+        gap: 20px; /* Increase gap between list items */
+      }
+      a {
+        font-size: 16px; /* Reduce font size */
+      }
+      #darkMode {
+        cursor: pointer;
+        padding: 4px 12px; /* Adjust padding */
+        font-size: 16px; /* Reduce font size */
+      }
+    }
+  }
+
+  @media (max-width: 576px) {
+  header {
+    padding: 10px; /* Further reduce padding */
+  }
+  img {
+    width: 60px; /* Decrease image size even more */
+    margin-left: 20px; /* Adjust margin */
+  }
+  .wrapper {
+    ul {
+      gap: 10px; /* Reduce gap between list items */
+    }
+    a {
+      font-size: 14px; /* Further reduce font size */
+    }
+    #darkMode {
+      padding: 4px 10px; /* Adjust padding */
+      font-size: 14px; /* Further reduce font size */
+    }
+  }
+}
+
+@media (max-width: 370px) {
+  header {
+    padding: 5px; /* Further reduce padding */
+  }
+  img {
+    width: 60px; /* Decrease image size even more */
+    margin-left: 0px; /* Adjust margin */
+    margin-right: 15px;
+  }
+  .wrapper {
+    ul {
+      gap: 15px; /* Reduce gap between list items */
+    }
+    a {
+      font-size: 14px; /* Further reduce font size */
+    }
+    #darkMode {
+      padding: 2px 6px; /* Adjust padding */
+      font-size: 14px; /* Further reduce font size */
+    }
+  }
+}
+
+}
