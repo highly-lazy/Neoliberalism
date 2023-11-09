@@ -494,6 +494,53 @@ header .wrapper #darkMode:hover {
   }
 }
 
+#liberal {
+  margin-top: 150px;
+  margin-bottom: 80px;
+}
+#liberal .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#liberal .wrapper .neo_texts {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+#liberal .wrapper .liberalism {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.4s;
+  border-color: blueviolet;
+}
+#liberal .wrapper .liberalism p {
+  font-size: 20px;
+}
+#liberal .wrapper .liberalism:hover {
+  background-color: rgb(56, 8, 119);
+  transform: scale(1.05);
+  color: #fff;
+}
+#liberal .wrapper button {
+  margin-top: 20px;
+  padding: 10px;
+  width: 25%;
+  border-radius: 12px;
+  border-color: rgb(56, 8, 119);
+  border: 1px solid blueviolet;
+}
+#liberal .wrapper button:hover {
+  background-color: rgb(56, 8, 119);
+}
+#liberal .wrapper button:hover a {
+  color: #fff;
+}
+
 #about {
   margin-top: 100px;
 }
@@ -737,6 +784,84 @@ footer {
   padding: 30px;
   background-color: rgb(56, 8, 119);
 }
-footer .wrapper p {
+footer .main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .main p {
+  margin-left: -80px;
+  font-size: 24px;
+  color: #fff;
+}
+footer .main .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer .main .wrapper p {
+  font-size: 20px;
   color: aliceblue;
+}
+footer .main .wrapper {
+  display: flex;
+}
+footer .main .wrapper a {
+  font-size: 20px;
+  color: #fff;
+}
+
+#chicago {
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+#chicago h1 {
+  margin-left: 200px;
+  margin-bottom: 30px;
+}
+#chicago .wrapper {
+  display: flex;
+  gap: 30px;
+}
+#chicago .wrapper .tekst {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  gap: 20px;
+  border: 2px solid blueviolet;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+#chicago .wrapper .tekst:hover {
+  background-color: rgb(56, 8, 119);
+  transform: scale(1.05);
+  color: #fff;
+}
+#chicago .wrapper .tekst p {
+  font-size: 18px;
+}
+#chicago .wrapper .wrap {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+  border: 2px solid blueviolet;
+  transition: transform 0.2s;
+}
+#chicago .wrapper .wrap:hover {
+  background-color: rgb(56, 8, 119);
+  transform: scale(1.04);
+  color: #fff;
+}
+#chicago .wrapper .wrap p {
+  font-size: 18px;
+}
+#chicago .wrapper .wrap img {
+  width: 500px;
+  border-radius: 5px;
 }/*# sourceMappingURL=style.css.map */

@@ -1,1 +1,53 @@
-// your code
+#liberal {
+  margin-top: 150px;
+
+  margin-bottom: 80px;
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .neo_texts {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .liberalism {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      padding: 20px;
+
+      border-radius: 10px;
+      transition: transform 0.4s;
+      border-color: blueviolet;
+
+      p {
+        font-size: 20px;
+      }
+      &:hover {
+        background-color: rgb(56, 8, 119);
+        transform: scale(1.05);
+        color: #fff;
+      }
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px;
+      width: 25%;
+      border-radius: 12px;
+      border-color: rgb(56, 8, 119);
+      border: 1px solid blueviolet;
+      &:hover {
+        background-color: rgb(56, 8, 119);
+        a {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
